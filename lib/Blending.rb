@@ -1,5 +1,8 @@
 module Blending
   def make_juice
-    puts "making some juice"
+    case self.class
+    when Apple
+      puts "making juice!"
+    end
   end
 end
